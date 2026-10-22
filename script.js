@@ -21,6 +21,5 @@ function setMotionPreference() {
 }
 setMotionPreference();
 reducedMotion.addEventListener('change', setMotionPreference);
-// Stop the decorative background after one pass; visitors can read in stillness.
-heroVideo.loop = false;
+heroVideo.loop = true;
 document.querySelector('#year').textContent = new Date().getFullYear();
