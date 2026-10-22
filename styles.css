@@ -59,3 +59,7 @@ h2{font-size:38px;letter-spacing:-1.5px;line-height:1.2;font-weight:600;margin:0
   .hero .involvement-intro h2{font-size:10px;font-weight:500;color:#b6c8d8}
   .hero>.involved{border-top:1px solid #ffffff25;padding-top:20px}
 }
+@media(max-width:720px){
+  .hero{justify-content:flex-start;min-height:580px;padding-top:72px;padding-bottom:150px}
+  .hero>.involved{position:absolute;left:26px;right:26px;bottom:30px;width:auto;margin:0;padding-top:18px}
+}
