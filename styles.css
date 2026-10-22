@@ -23,3 +23,12 @@ h2{font-size:38px;letter-spacing:-1.5px;line-height:1.2;font-weight:600;margin:0
   .program-link-arrow .icon{width:15px;height:15px}
   .program-link:hover h3{color:#007da7}
 }
+/* Simple, unboxed involvement links. */
+.involved{padding:0 0 48px}
+.involvement-panel{display:flex;align-items:center;justify-content:space-between;gap:40px;background:transparent;border:0;border-top:1px solid var(--line);border-radius:0;padding:32px 0 0}
+.involvement-intro h2{font-size:25px;letter-spacing:-.8px;line-height:1.2}
+.involvement-links{display:flex;flex-direction:row;align-items:center;gap:12px}
+.involvement-links>a,.involvement-links>a:first-child,.involvement-links>a:last-child{padding:13px 18px;border:1px solid var(--line);border-radius:6px;gap:26px;font-size:12px;background:transparent}
+.involvement-links>a:hover{background:#fff;border-color:#8eb9c7}
+.involvement-links .icon{width:15px;height:15px;color:var(--muted)}
+@media(max-width:720px){.involved{padding-bottom:32px}.involvement-panel{align-items:flex-start;flex-direction:column;gap:20px;padding:26px 0 0}.involvement-intro h2{font-size:24px}.involvement-links{width:100%;gap:8px;flex-wrap:wrap}.involvement-links>a,.involvement-links>a:first-child,.involvement-links>a:last-child{padding:11px 12px;gap:12px;font-size:11px}.involvement-links .icon{width:14px;height:14px}}
