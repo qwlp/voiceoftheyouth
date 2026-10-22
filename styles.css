@@ -6,3 +6,21 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 /* Keep playback controls above the hero surface. */
 .hero-video{z-index:0}.hero-bottom{z-index:1}
+/* A quiet frame for the film, with one clear next step. */
+body,h1,h2,h3,.brand{font-family:Manrope,Arial,sans-serif}
+.header{min-height:82px}.brand{letter-spacing:0;font-size:11px;line-height:1.2}
+.hero{display:block;min-height:0;background:#091f40;padding:0 0 70px}
+.hero-video{position:relative;inset:auto;width:100%;height:min(70vw,calc(100svh - 190px));min-height:350px;aspect-ratio:auto}
+.hero-video video{object-fit:contain}
+.hero-video:after{display:none}
+.video-controls{bottom:20px;right:24px}
+.hero-bottom{bottom:0;left:24px;right:24px;height:70px;padding:0;letter-spacing:0;font-size:12px;color:#c0cedc}
+.hero-bottom .button{padding:12px 18px;font-size:11px;gap:24px;color:var(--ink)}
+h2{font-size:clamp(30px,3.5vw,48px);font-weight:600;letter-spacing:-1.8px;line-height:1.15}
+h3{font-size:19px;font-weight:600;letter-spacing:-.5px}
+.about{padding-top:55px;padding-bottom:55px}.about-copy>p:not(.large-copy){font-size:14px;line-height:1.7}
+.involvement-list h3{font-size:25px;letter-spacing:-.6px}
+.contact{display:flex;align-items:center;justify-content:space-between;gap:25px}
+.contact h2{font-size:clamp(40px,5vw,68px);letter-spacing:-2px}.contact-bottom{margin:0}
+@media(min-width:1600px){.hero{min-height:0}}
+@media(max-width:720px){.header{min-height:74px}.header nav{top:73px}.hero{padding-bottom:65px}.hero-video{aspect-ratio:1280/692;height:auto;min-height:0}.hero-bottom{position:absolute;margin:0;left:16px;right:16px;height:65px;font-size:10px;flex-direction:row}.hero-bottom .button{font-size:10px;padding:10px 14px;gap:15px}.video-controls{bottom:10px;right:12px}.video-controls button{background:#091f40e8}.video-controls #hero-pause{width:29px;height:29px;min-height:29px}.watch-button{font-size:8px!important;min-height:29px!important;padding:6px 9px!important}.about{padding-top:40px;padding-bottom:40px;gap:15px}.about-copy>p:not(.large-copy){font-size:12px}h2{font-size:32px;letter-spacing:-1px}h3{font-size:17px}.contact{display:flex;flex-direction:row}.contact h2{font-size:36px;letter-spacing:-1.5px}.contact-bottom .button{min-width:130px}.involvement-list h3{font-size:23px}}
