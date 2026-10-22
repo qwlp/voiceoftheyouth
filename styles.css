@@ -88,3 +88,9 @@ h2{font-size:38px;letter-spacing:-1.5px;line-height:1.2;font-weight:600;margin:0
 .site-header .wordmark img{width:220px;height:220px;left:-17px;top:-72px;mix-blend-mode:multiply}
 @media(max-width:1000px){.site-header .wordmark{width:190px;height:76px;flex-basis:190px}}
 @media(max-width:720px){.site-header .wordmark{width:165px;height:66px;flex-basis:165px}.site-header .wordmark img{width:195px;height:195px;left:-15px;top:-65px}}
+@media(max-width:720px){
+  .hero{align-items:center;text-align:center}
+  .hero-message{width:100%}
+  .hero .involvement-panel{align-items:center}
+  .hero .involvement-links{justify-content:center}
+}
