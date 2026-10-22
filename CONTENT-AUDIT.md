@@ -1,14 +1,35 @@
-# Original homepage content audit
+# VOTY content migration
 
-Compared `Voice Of the Youth.html` with `index.html`.
+The original saved homepage and live Google Sites pages were used to rebuild this static website. All navigation to the old Google Sites pages now leads to local HTML pages.
 
-- Preserved the full original welcome paragraph verbatim.
-- Preserved the organization name, logo, and “For Youth, By Youth” tagline.
-- Included all four original program photos and program facts: annual seasonal public speaking/team debate competition; July–August summer tournament; four-week summer public speaking/team debate course with experienced trainers; customized debate/public speaking tutoring from former champions based on schedule and skill.
-- Preserved both original contact emails, Phnom Penh location, and phone number.
-- Preserved Facebook, Instagram, and Telegram destinations.
-- Restored original public navigation destinations in the expandable “More about VOTY” footer index, including team, history, upcoming programs, sponsorship, partnership, and merchandise. The saved HTML contains only homepage content, not these linked pages' contents.
-- Restored the seasonal/course Google Drive photo links and summer tournament Facebook post on program photos. The original tutoring photo pointed to a Google Sites editor URL; the new photo links to the original public tutoring page instead.
-- Kept the newly supplied video and Core Team recruitment information, including all seven roles, dates, remote arrangement, application form, and Telegram group.
+| Original Google Sites path | Local page |
+| --- | --- |
+| home | index.html |
+| about-us | about.html |
+| about-us/our-team | team.html |
+| about-us/history | history.html |
+| get-involved | get-involved.html |
+| get-involved/voty-tutoring-program | tutoring.html |
+| get-involved/upcoming-programs | upcoming-programs.html |
+| get-involved/become-a-volunteer | volunteer.html |
+| get-involved/become-a-sponsor | sponsor.html |
+| get-involved/voty-official-partner | partner.html |
+| get-involved/voty-merchandise | merchandise.html |
 
-Google Sites interface controls, repeated navigation copies, tracking redirects, internal section URLs, and platform reporting/update controls were not migrated as organization content. No linked external page content was invented or copied.
+Source base URL: https://sites.google.com/view/voice-of-the-youth/
+
+## Preserved
+
+- Original homepage welcome, program information, logo, photos, tagline, contact emails, location, phone, and social links.
+- About page mission, vision, and 2023 program imagery/captions.
+- Founder and executive-team profiles, portraits, roles, and remarks.
+- History and founding information.
+- Tutoring features, scheduling and format details, eight instructors with portraits and original biography document links, booking form, and pricing. The pricing image was recreated as an accessible table, preserving its wording. Original package amounts are labeled for confirmation when booking.
+- Original sponsorship contact (voiceoftheyouth@gmail.com), sponsorship information, and embedded video.
+- Komnit Solution partnership information and image.
+- A5 80-page notebook, dimensions, original $2 listing, product photo, and order form.
+- Original get-involved video and introductory content.
+- Pending upcoming-program details remain pending rather than receiving invented fees, dates, or locations.
+- The newer user-provided Core Team recruitment supersedes the volunteer page's old Coming Soon listing, and includes all seven roles, working period, remote arrangement, deadline, form, and Telegram group.
+
+All 19 original content images were downloaded locally. Google Sites editor links were replaced by public local pages. Google Forms, Google Drive instructor biography documents, embedded Drive videos, social media, and mail/phone actions remain external where required by their service. Google Sites platform controls and repeated navigation were omitted.

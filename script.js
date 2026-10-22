@@ -10,6 +10,7 @@ navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', 
   navigation.classList.remove('open');
 }));
 const heroVideo = document.querySelector('#hero-video');
+if (heroVideo) {
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 function setMotionPreference() {
   if (reducedMotion.matches) {
@@ -22,4 +23,5 @@ function setMotionPreference() {
 setMotionPreference();
 reducedMotion.addEventListener('change', setMotionPreference);
 heroVideo.loop = true;
+}
 document.querySelector('#year').textContent = new Date().getFullYear();
