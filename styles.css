@@ -36,3 +36,12 @@ h2{font-size:38px;letter-spacing:-1.5px;line-height:1.2;font-weight:600;margin:0
 @media(max-width:720px){.about{grid-template-columns:1fr;gap:20px;padding:34px 0}.about h2{font-size:27px;max-width:300px;letter-spacing:-.8px}.about p{font-size:13px;line-height:1.85;max-width:none}}
 .hero+.involved{padding:0}.hero+.involved .involvement-panel{border-top:0;border-bottom:1px solid var(--line);padding:28px 0}.hero+.involved+.about{border-bottom:1px solid var(--line)}
 @media(max-width:720px){.hero+.involved .involvement-panel{padding:25px 0;gap:17px}}
+/* Involvement links belong to the video hero. */
+.hero>.involved{position:absolute;z-index:1;right:5%;bottom:35px;padding:0;color:white}
+.hero .involvement-panel{width:auto;margin:0;padding:0;border:0;display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.hero .involvement-intro h2{font-size:12px;letter-spacing:0;font-weight:650;color:#c9d9e7}
+.hero .involvement-links{gap:10px}
+.hero .involvement-links>a,.hero .involvement-links>a:first-child,.hero .involvement-links>a:last-child{color:white;background:#091f4050;border-color:#ffffff45;padding:11px 15px;font-size:11px;gap:17px;backdrop-filter:blur(8px)}
+.hero .involvement-links>a:hover{background:#ffffff18;border-color:#75dcff}
+.hero .involvement-links .icon{color:#a6dff5;width:14px;height:14px}
+@media(max-width:720px){.hero{min-height:530px;flex-direction:column;align-items:flex-start;justify-content:center;gap:38px}.hero>.involved{position:relative;right:auto;bottom:auto;width:100%}.hero .involvement-panel{gap:12px}.hero .involvement-intro h2{font-size:11px}.hero .involvement-links{gap:7px;flex-wrap:wrap}.hero .involvement-links>a,.hero .involvement-links>a:first-child,.hero .involvement-links>a:last-child{font-size:10px;padding:10px 11px;gap:9px}.hero .involvement-links .icon{width:13px;height:13px}}
