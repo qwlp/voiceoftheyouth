@@ -8,3 +8,18 @@ h2{font-size:38px;letter-spacing:-1.5px;line-height:1.2;font-weight:600;margin:0
 @media(max-width:720px){.footer-email{font-size:10px;gap:7px;white-space:nowrap}.footer-email .icon,.footer-phone .icon{width:14px;height:14px}.footer-main{column-gap:16px}.footer-social a{gap:8px}.brand-icon{width:14px;height:14px}}
 .program-description{font-size:12px;line-height:1.7;color:var(--muted);margin:11px 0 0;max-width:400px}.program-info{min-height:166px}.program-link-arrow{top:29px;transform:none}
 @media(max-width:720px){.program-description{font-size:11px;line-height:1.7;margin-top:9px}.program-info{min-height:0;padding-bottom:20px}.program-link-arrow{top:22px}}
+/* Wide screens: show the complete program lineup in one row. */
+@media(min-width:1200px){
+  .programs>.wrap{width:min(1600px,calc(100% - 96px))}
+  .program-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+  .program-link{border:0;border-radius:0;background:transparent;overflow:visible}
+  .program-link:hover{box-shadow:none}
+  .program-link>img{aspect-ratio:.9;object-position:center;border-radius:8px}
+  .program-info{padding:20px 0 0;min-height:0}
+  .program-type{display:block;padding-right:28px;font-size:9px;line-height:1.6;min-height:29px}
+  .program-info h3{font-size:20px;letter-spacing:-.7px;margin:4px 0 0}
+  .program-description{font-size:12px;line-height:1.75;margin-top:12px;max-width:none}
+  .program-link-arrow{top:20px;right:0;width:23px;height:23px;border:0}
+  .program-link-arrow .icon{width:15px;height:15px}
+  .program-link:hover h3{color:#007da7}
+}
