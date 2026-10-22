@@ -24,7 +24,7 @@ Source base URL: https://sites.google.com/view/voice-of-the-youth/
 - About page mission, vision, and 2023 program imagery/captions.
 - Founder and executive-team profiles, portraits, roles, and remarks.
 - History and founding information.
-- Tutoring features, scheduling and format details, eight instructors with portraits and original biography document links, booking form, and pricing. The pricing image was recreated as an accessible table, preserving its wording. Original package amounts are labeled for confirmation when booking.
+- Tutoring features, scheduling and format details, eight instructors with portraits and original biography document links, booking form, and pricing. The pricing image was recreated as an accessible table, preserving its wording. The source-note banners were removed at the user’s request.
 - Original sponsorship contact (voiceoftheyouth@gmail.com), sponsorship information, and embedded video.
 - Komnit Solution partnership information and image.
 - A5 80-page notebook, dimensions, original $2 listing, product photo, and order form.
